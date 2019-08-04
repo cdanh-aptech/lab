@@ -1,0 +1,73 @@
+
+/* --------------------- content1 --------------------- */
+.content1{
+    margin: 20px auto;
+    width: 750px;
+    border: 1px solid #999;
+    padding: 10px;
+    
+    min-height: 300px;
+
+}
+
+.content1 h1{
+    color: blue;
+    text-align: center;
+}
+
+.content1 ul{
+    margin: 20px;
+}
+
+.content1 ul li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 20px;
+}
+
+.content1 ul li a{
+    display: block;
+    width: 180px;
+    height: 180px;
+}
+
+.content1 div.result{
+    margin-left: 350px;
+}
+
+/* --------------------- content2 --------------------- */
+.content2{
+    margin: 20px auto;
+    width: 300px;
+    border: 2px solid blue;
+    padding: 10px;
+    
+}
+
+.content2 h1{
+    color: red;
+    text-align: center;
+}
+
+.content2 div.image{
+    margin: 20px 0px;
+}
+
+.content2 div.image img{
+    width: 300px;
+    height: 200px;
+    text-align: center;
+}
+
+.content2 div.image a{
+    display: inline-block;
+    background-color: blueviolet;
+    padding: 3px 10px;
+    margin-left: 50px;
+    text-decoration: none;
+    color: white;
+}
+
+.content2 div.image a:hover{
+    color: yellow;
+}
